@@ -1,26 +1,28 @@
-# Java-Art
-Learning how to draw with java
+# BarMan: Drawing a Snack Bar in Java
 
-My goal in creating this program was to get creative in learning more about 
-the java graphics class. I wanted to see If I could create a graphic simply by
-coding in the java language. To my surprise, this project felt very much like
-using those old-school paint applications on Windows pc’s. Instead of dragging
-a mouse to paint, I had to code it all, including fonts, colors, and
-orientation of where things would go. 
+**BarMan** is a beginner-friendly project designed to learn and practice graphical programming in Java. It uses Java's `Swing` and `Graphics` libraries to draw a stylized protein bar representation on a windowed canvas.
 
-The most challenging aspect of this project was properly orienting the first
-rectangle that would become the body of the bar. I used a Java graphic
-function called fillRect which I accessed by importing the java.awt.Graphics
-package, and then applied x and y coordinates to position it. I further
-utilized this class to add the banners and frayed edges. I then used the
-java.awt.Font package to apply the text. 
+## Features
+- Draws a realistic snack bar with:
+  - A brown base rectangle as the bar wrapper.
+  - Frayed edges at the top and bottom to simulate torn packaging.
+  - Text labels such as the brand name (`RXBAR`), protein content (`12 G Protein Bar`), and flavor (`Peanut Butter Chocolate`).
+  - Custom colors for wrapper design elements.
+- Demonstrates the use of `Graphics` and `Color` classes in Java for creating custom drawings.
 
-There was a learning curve in learning Java Swing with JFrame and JPanel
-components. JPanel is essentially the blank canvas that is used for graphic
-art, and JFrame creates the pop-up window with the graphic when the program is
-run. JFrame is a handy tool for any cases when one needs the output to be in a
-pop-up window, rather than in the text-editor. 
+## Technologies Used
+- **Java Swing**: For creating the window (`JFrame`) and adding the drawing panel.
+- **Graphics**: For 2D drawing operations.
+- **Color**: To define and apply custom colors.
 
- I really enjoyed this project. With time, I would like to learn more about
- coding graphical user interfaces, and would like to add animation to this
- project. 
+## Getting Started
+
+### Prerequisites
+- Java Development Kit (JDK) installed (JDK 8 or higher recommended).
+- A code editor or IDE like IntelliJ IDEA, Eclipse, or VS Code.
+
+### Running the Program
+1. Save the code to a file named `BarMan.java`.
+2. Compile the program using the following command:
+   ```bash
+   javac BarMan.java
